@@ -1,0 +1,42 @@
+/*header*/
+#header{
+	width: 98%;
+	line-height: 50px;
+	background: #080808 ;
+	overflow:hidden;
+	position: fixed;
+	top: 3%;
+	/*left: 0;*/
+	/*right: 0;*/
+	border-style: solid;
+	border-color: #080808 ;
+	border-radius: 5px;
+	color: white;
+}
+
+#header-title{
+	float: left;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 25px;
+	margin-left: 5px;
+}
+
+#header-menu{
+	float: left;
+	margin-left: 50px;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.links{
+	margin-right: 40px;
+	/*text-decoration: none;*/
+	float: left;
+	padding: 0px 10px;
+}
+
+.active{
+	/*width: 100%;*/
+	background: #303030 ;
+}
