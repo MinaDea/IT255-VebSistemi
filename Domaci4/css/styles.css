@@ -1,0 +1,64 @@
+body {
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container {
+  width: 60%;
+  margin: auto;
+}
+.container #header {
+  background: red;
+  color: white;
+  border-radius: 15px;
+  animation-name: example;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+}
+.container #header #header-menu {
+  padding: 15px;
+  text-align: center;
+  font-size: 1.5em;
+}
+.container #header #header-menu .links {
+  display: inline-block;
+  margin-right: 70px;
+}
+.container #header #header-menu .links a {
+  text-decoration: none;
+  color: white;
+}
+.container #content {
+  margin-top: 30px;
+}
+.container #content .profil-image {
+  padding: 15px;
+  width: 40%;
+}
+.container #content .profil-image img {
+  width: 98%;
+}
+.container #content .profile-text {
+  width: 40%;
+  color: white;
+}
+.container #content .profile-text h3 {
+  cursor: pointer;
+}
+.inline {
+  display: inline-block;
+}
+@-webkit-keyframes example {
+  0% {
+    background-color: red;
+  }
+  50% {
+    background-color: black;
+  }
+  100% {
+    background-color: red;
+  }
+}

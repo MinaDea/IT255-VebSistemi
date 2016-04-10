@@ -1,0 +1,71 @@
+body{
+	background-image: url("../img/background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.container{
+	width: 60%;
+	margin: auto;
+
+	#header{
+		background:red;
+		color: white;
+		border-radius: 15px;
+		animation-name: example;
+    	animation-duration: 8s;
+    	animation-iteration-count: infinite;
+		-moz-animation-iteration-count: infinite;
+		-webkit-animation-iteration-count: infinite;
+		-o-animation-iteration-count: infinite;
+
+
+		#header-menu{
+			padding: 15px;
+			text-align: center;
+			font-size: 1.5em;
+			.links{
+				display: inline-block;
+				margin-right: 70px;
+
+				a {
+					text-decoration: none;
+    				color: white;
+				}
+			}
+		}
+
+	}
+
+	#content{
+		margin-top: 30px;
+
+		.profil-image{
+			padding: 15px;
+			width: 40%;
+
+			img {
+				width: 98%;
+			}
+		}
+
+		.profile-text {
+			width: 40%;
+			color: white;
+
+			h3{
+				cursor: pointer;
+			}
+		}
+	}
+}
+
+.inline{
+	display: inline-block;
+}
+
+@-webkit-keyframes example {
+     0%   {background-color: red;}
+    50%  {background-color: black;}
+    100%  {background-color: red;}
+}
